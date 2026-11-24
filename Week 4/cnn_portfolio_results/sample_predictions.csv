@@ -1,0 +1,7 @@
+Model,Test subset index,Original test index,True class,Predicted class,Softmax score,Correct
+With pooling,0,9128,deer,deer,0.29444414377212524,True
+With pooling,1,5468,dog,dog,0.319700688123703,True
+With pooling,2,62,frog,frog,0.19915829598903656,True
+Without pooling,0,9128,deer,deer,0.47601011395454407,True
+Without pooling,1,5468,dog,automobile,0.4166106581687927,False
+Without pooling,2,62,frog,airplane,0.2531941533088684,False
